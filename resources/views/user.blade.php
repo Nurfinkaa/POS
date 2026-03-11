@@ -5,23 +5,14 @@
 </head>
 <body>
     <h1>Data User</h1>
-
-    <table border="1">
+        <table border="1">
         <tr>
-            <td>ID</td>
-            <td>Username</td>
-            <td>Nama</td>
-            <td>Level ID</td>
+            <td>Jumlah Pengguna</td>
         </tr>
-
-        {{--@foreach ($data as $d)--}}
+        
         <tr>
-            <td>{{ $data->user_id }}</td>
-            <td>{{ $data->username }}</td>
-            <td>{{ $data->nama }}</td>
-            <td>{{ $data->level_id }}</td>
+            <td>{{ $data }}</td>
         </tr>
-        {{--@endforeach--}}
-    </table>
+        </table>
 </body>
 </html>
